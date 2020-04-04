@@ -1,11 +1,11 @@
 h1 {
   font-size: 30px;
-  color: darkorange;
+  color: navy;
   text-align: center;
   }
 
 .nav {
-	background-color: darkorange;
+	background-color: gray;
 	overflow: hidden;
 }
 .nav a {
@@ -17,20 +17,31 @@ h1 {
   font-size: 17px;
 }
 .nav a:hover {
-  background-color: brown;
-  color: white;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 1px;
 }
 .nav a.active {
-  background-color: brown;
-  color: white;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 1px;
 }
 
 footer {
 	text-align: center;
+
+}
+footer li {
+	list-style-type: none;
+
 }
 .center {
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
 }
-
+main, footer, h1 {
+	font-family: 'Raleway', sans-serif;
+}
