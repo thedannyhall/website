@@ -5,7 +5,7 @@ h1 {
   }
 
 .nav {
-	background-color: pink;
+	background-color: darkorange;
 	overflow: hidden;
 }
 .nav a {
@@ -17,11 +17,11 @@ h1 {
   font-size: 17px;
 }
 .nav a:hover {
-  background-color: purple;
+  background-color: brown;
   color: white;
 }
 .nav a.active {
-  background-color: purple;
+  background-color: brown;
   color: white;
 }
 
